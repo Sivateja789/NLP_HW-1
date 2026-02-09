@@ -1,41 +1,47 @@
 # CS5760 — NLP Homework 1 (Spring 2026)
 
-## Student
-Name: KATTA SIVA TEJA
-
-ID: 700774274
-
-Course: CS5760 Natural Language Processing  
+## Student  
+**Name:** KATTA SIVA TEJA  
+**ID:** 700774274  
+**Course:** CS5760 Natural Language Processing  
 
 ---
 
-## 📌 Project Overview
+## 📌 Project Overview  
 
-This repository contains my solutions for **Homework 1** in Natural Language Processing, including:
+This repository contains my solutions for **Homework 1** in Natural Language Processing, including:  
 
-- Manual Byte Pair Encoding (BPE) analysis and implementation (Q2)
-- Tokenization experiments in **Telugu** (Q5)
-- Comparison of:
-  - Naïve tokenization  
-  - Manual tokenization  
-  - Indic NLP tokenizer  
+- **Q2 — Byte Pair Encoding (BPE)**  
+  - Manual BPE analysis on a toy corpus  
+  - Implementation of a mini BPE learner in Python  
+  - Segmentation of words such as: `new`, `newer`, `lowest`, `widest`, `newestest`  
 
-The goal is to understand how tokenization works in different languages and how subword models like BPE help with rare and unseen words.
+- **Q5 — Tokenization in Telugu**  
+  - Naïve space-based tokenization  
+  - Manual tokenization with suffix handling (`లో, కు, తో, పై`)  
+  - Tokenization using **Indic NLP Library**  
+  - Comparison of the three approaches  
+  - Identification of Multiword Expressions (MWEs) in Telugu  
 
----
-
-## 📁 Files in this repository
-
-| File | Purpose |
-|------|---------|
-| `NLP_HW-1_q2_bpe.ipynb` | Mini BPE learner + segmentation of words |
-| `NLP_Homework_1.py` | Full tokenization pipeline in Telugu |
-| `requirements.txt` | Python libraries needed to run the code |
+The goal of this assignment is to understand how tokenization works across languages and how subword models like BPE help reduce the out-of-vocabulary (OOV) problem.
 
 ---
 
-## ▶️ How to Run the Code
+## 📁 Files in this Repository  
 
-### Step 1 — Install dependencies
+| File | Description |
+|------|-------------|
+| `NLP_HW-1_q2_bpe.ipynb` | Jupyter notebook for Q2: Manual BPE + Python BPE learner |
+| `NLP_Homework_1.py` | Full Telugu tokenization pipeline for Q5 |
+| `requirements.txt` | Required Python libraries |
+
+---
+
+## ▶️ How to Run the Code  
+
+### **Step 1 — Install dependencies**
+
+Run this in your terminal:
+
 ```bash
 pip install -r requirements.txt
