@@ -28,8 +28,8 @@ The goal is to understand how tokenization works in different languages and how 
 
 | File | Purpose |
 |------|---------|
-| `q2_bpe.py` | Mini BPE learner + segmentation of words |
-| `q5_tokenization_full_telugu.py` | Full tokenization pipeline in Telugu |
+| `NLP_HW-1_q2_bpe.ipynb` | Mini BPE learner + segmentation of words |
+| `NLP_Homework_1.py` | Full tokenization pipeline in Telugu |
 | `requirements.txt` | Python libraries needed to run the code |
 
 ---
