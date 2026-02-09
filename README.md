@@ -1,8 +1,10 @@
 # CS5760 — NLP Homework 1 (Spring 2026)
 
 ## Student
-Name: <YOUR NAME HERE>  
-University of Central Missouri  
+Name: KATTA SIVA TEJA
+
+ID: 700774274
+
 Course: CS5760 Natural Language Processing  
 
 ---
